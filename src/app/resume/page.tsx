@@ -50,10 +50,10 @@ export default function Page() {
                 <strong>王希如</strong>.
               </p>
               <p>
-                I am a back-end engineer who have been involving in
-                front-end development since <strong>2018</strong>, focusing on
-                building aesthetically pleasing and highly interactive user
-                interfaces by <code>React</code>.
+                I am a back-end engineer who have been involving in front-end
+                development since <strong>2018</strong>, focusing on building
+                aesthetically pleasing and highly interactive user interfaces by{' '}
+                <code>React</code>.
               </p>
               <p>
                 I have amassed substantial practical experience in the{' '}
@@ -109,14 +109,10 @@ export default function Page() {
               <ul>
                 <li>
                   <strong>
-                    <a href='https://github.com/SheEagle/MyGenius'>
-                      My Genius
-                    </a>
+                    <a href='https://github.com/SheEagle/MyGenius'>My Genius</a>
                   </strong>
                 </li>
-                <li>
-                  A Chatbot
-                </li>
+                <li>A Chatbot</li>
               </ul>
             </TypedContent>
             <TypedText>blog-info</TypedText>
@@ -150,7 +146,8 @@ export default function Page() {
             <TypedContent>
               <p>
                 I excel in <code>Java</code> and <code>Python</code>,
-                proficiently utilizing <code>SpringBoot</code>, <code>Django</code> and <code>Flask</code>
+                proficiently utilizing <code>SpringBoot</code>,{' '}
+                <code>Django</code> and <code>Flask</code>
                 to develop web apps.
               </p>
               <p>
@@ -175,12 +172,16 @@ export default function Page() {
                 <p className='basis-1/4 text-center font-semibold'>Social</p>
                 <div className='grid flex-1 grid-cols-2 justify-items-start gap-2'>
                   <a href='https://github.com/SheEagle'>Github</a>
-                  <a href='https://www.linkedin.com/in/xiru-wang-551103248/'>Linkedin</a>
+                  <a href='https://www.linkedin.com/in/xiru-wang-551103248/'>
+                    Linkedin
+                  </a>
                 </div>
               </div>
               <div className='flex items-center'>
                 <p className='basis-1/4 text-center font-semibold'>Email</p>
-                <a href='mailto:morganwang68@gmail.com'>morganwang68@gmail.com</a>
+                <a href='mailto:morganwang68@gmail.com'>
+                  morganwang68@gmail.com
+                </a>
               </div>
             </TypedContent>
           </Typed>
