@@ -1,6 +1,10 @@
 import dynamic from 'next/dynamic'
 import { type StaticImageData } from 'next/image'
 
+// 导入内部模块或相对路径模块
+import dockerSvg from '@/images/logo/docker.svg'
+import jenkinsSvg from '@/images/logo/jenkins.svg'
+import torchSvg from '@/images/logo/pytorch.svg'
 import javaSvg from '@/images/logo/java.svg'
 import springbootSvg from '@/images/logo/springboot.svg'
 import pythonSvg from '@/images/logo/python.svg'
@@ -14,15 +18,13 @@ import rabbitSvg from '@/images/logo/rabbitmq.svg'
 import reactSvg from '@/images/logo/react.svg'
 import vueSvg from '@/images/logo/vue.svg'
 import nodejsSvg from '@/images/logo/nodejs.svg'
-import dockerSvg from '@/images/logo/docker.svg'
-import jenkinsSvg from '@/images/logo/jenkins.svg'
-import torchSvg from '@/images/logo/pytorch.svg'
 import { Block } from '@/components/blocks/block'
 
 const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
   ssr: false,
 })
 
+// 导入类型声明
 const images: StaticImageData[] = [
   javaSvg,
   springbootSvg,
@@ -41,6 +43,7 @@ const images: StaticImageData[] = [
   jenkinsSvg,
   torchSvg,
 ]
+
 
 export const Skills = () => {
   return (
