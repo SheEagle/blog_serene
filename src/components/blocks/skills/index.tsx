@@ -2,14 +2,24 @@ import dynamic from 'next/dynamic'
 import { type StaticImageData } from 'next/image'
 
 import cssSvg from '@/images/logo/css.svg'
+import djangoSvg from '@/images/logo/django.svg'
+import dockerSvg from '@/images/logo/docker.svg'
 import gatsbySvg from '@/images/logo/gatsby.svg'
 import graphqlSvg from '@/images/logo/graphql.svg'
 import htmlSvg from '@/images/logo/html.svg'
 import javascriptSvg from '@/images/logo/javascript.svg'
+import jenkinsSvg from '@/images/logo/jenkins.svg'
+import kafkaSvg from '@/images/logo/kafka.svg'
+import mongoSvg from '@/images/logo/mongodb.svg'
+import mysqlSvg from '@/images/logo/mysql.svg'
 import nestjsSvg from '@/images/logo/nestjs.svg'
 import nextjsSvg from '@/images/logo/nextjs.svg'
 import nodejsSvg from '@/images/logo/nodejs.svg'
+import postSvg from '@/images/logo/postgresql.svg'
 import prismaSvg from '@/images/logo/prisma.svg'
+import pythonSvg from '@/images/logo/python.svg'
+import torchSvg from '@/images/logo/pytorch.svg'
+import rabbitSvg from '@/images/logo/rabbitmq.svg'
 import reactNativeSvg from '@/images/logo/react-native.svg'
 import reactSvg from '@/images/logo/react.svg'
 import swiftSvg from '@/images/logo/swift.svg'
@@ -18,18 +28,8 @@ import typeScriptSvg from '@/images/logo/typescript.svg'
 import vueSvg from '@/images/logo/vue.svg'
 import webpackSvg from '@/images/logo/webpack.svg'
 import springbootSvg from '@/images/logo/springboot.svg'
-import pythonSvg from '@/images/logo/python.svg'
-import djangoSvg from '@/images/logo/django.svg'
-import torchSvg from '@/images/logo/pytorch.svg'
-import mysqlSvg from '@/images/logo/mysql.svg'
-
-import postSvg from '@/images/logo/postgresql.svg'
 import redisSvg from '@/images/logo/redis.svg'
-import kafkaSvg from '@/images/logo/kafka.svg'
-import rabbitSvg from '@/images/logo/rabbitmq.svg'
-import dockerSvg from '@/images/logo/docker.svg'
-import jenkinsSvg from '@/images/logo/jenkins.svg'
-import mongoSvg from '@/images/logo/mongodb.svg'
+import javaSvg from '@/images/logo/java.svg'
 import { Block } from '@/components/blocks/block'
 
 const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
@@ -37,6 +37,7 @@ const Galton = dynamic(() => import('./galton').then(module => module.Galton), {
 })
 
 const images: StaticImageData[] = [
+  javaSvg,
   springbootSvg,
   pythonSvg,
   djangoSvg,
