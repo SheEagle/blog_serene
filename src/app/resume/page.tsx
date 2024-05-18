@@ -34,7 +34,7 @@ export default function Page() {
             <Dot className='cursor-not-allowed bg-green-500' />
           </span>
           <span className='text-center text-gray-400'>
-            zhangyu@MacBook-Air:~
+            SereneWang@MacBook-Air:~
           </span>
           <span className='text-end text-gray-500'>⌥⌘1</span>
         </header>
@@ -50,14 +50,11 @@ export default function Page() {
                 <strong>王希如</strong>.
               </p>
               <p>
-                I am a back-end engineer who have been involving in
-                front-end development since <strong>2018</strong>, focusing on
-                building aesthetically pleasing and highly interactive user
-                interfaces by <code>React</code>.
+                I am a junior pursuing degree in Software Engineering since <strong>2021</strong>.
               </p>
               <p>
                 I have amassed substantial practical experience in the{' '}
-                <code>React</code> technology stack.
+                <code>Java</code> and <code>Python</code>.
               </p>
             </TypedContent>
             <TypedText afterDelay={1000}>ls</TypedText>
