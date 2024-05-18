@@ -46,11 +46,11 @@ export default function Page() {
             <TypedText>whoami</TypedText>
             <TypedContent>
               <p>
-                Hi, I&apos;m <strong>ZHANG YU</strong>, in Chinese my name is{' '}
+                Hi, I&apos;m <strong>Serene Wang</strong>, in Chinese my name is{' '}
                 <strong>王希如</strong>.
               </p>
               <p>
-                I am a senior front-end engineer who have been involving in
+                I am a back-end engineer who have been involving in
                 front-end development since <strong>2018</strong>, focusing on
                 building aesthetically pleasing and highly interactive user
                 interfaces by <code>React</code>.
@@ -89,60 +89,33 @@ export default function Page() {
               <ul>
                 <li>
                   <strong>
-                    <a href='https://github.com/zhangyu1818/react-markdown-toc'>
-                      react-markdown-toc
+                    <a href='https://github.com/SheEagle/Ultraviolet'>
+                      Ultraviolet
                     </a>
                   </strong>
                 </li>
-                <li>Generating a Table of Contents (TOC) from Markdown.</li>
+                <li>A Forum built for women in STEM.</li>
               </ul>
               <ul>
                 <li>
                   <strong>
-                    <a href='https://github.com/zhangyu1818/from-to'>
-                      from-to.js
+                    <a href='https://github.com/SheEagle/web-monitor'>
+                      Web Monitor
                     </a>
                   </strong>
                 </li>
-                <li>Transitioning from one value to another.</li>
+                <li>Monitor and manage runtime servers.</li>
               </ul>
               <ul>
                 <li>
                   <strong>
-                    <a href='https://github.com/zhangyu1818/react-server-only-context'>
-                      react-server-only-context
+                    <a href='https://github.com/SheEagle/MyGenius'>
+                      My Genius
                     </a>
                   </strong>
                 </li>
                 <li>
-                  A straightforward alternative for using context within React
-                  Server Components.
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <strong>
-                    <a href='https://github.com/zhangyu1818/tw-styled'>
-                      tw-styled
-                    </a>
-                  </strong>
-                </li>
-                <li>
-                  Create Tailwind CSS-styled React components with ease using
-                  tw-styled.
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <strong>
-                    <a href='https://github.com/zhangyu1818/use-flip'>
-                      use-flip
-                    </a>
-                  </strong>
-                </li>
-                <li>
-                  Effortless FLIP animations with a React Hook for smoother
-                  transitions.
+                  A Chatbot
                 </li>
               </ul>
             </TypedContent>
@@ -150,12 +123,11 @@ export default function Page() {
             <TypedContent>
               <p>
                 I am keen on sharing knowledge as well as writing articles and
-                tutorials regularly, covering <code>JavaScript</code>,
-                <code>TypeScript</code>, <code>React</code> source-code,{' '}
-                <code>CSS</code>, and animation.
+                tutorials regularly, covering <code>Java</code>,
+                <code>Python</code>, <code>React</code>,
+                <code>Machine Learning</code>, and Music.
               </p>
               <p>
-                My articles have been read over <i>150,000</i> times.
                 Previously, I primarily wrote in Chinese, but currently, my goal
                 is to write articles in English.
               </p>
@@ -177,9 +149,9 @@ export default function Page() {
             <TypedText>skills</TypedText>
             <TypedContent>
               <p>
-                I excel in <code>JavaScript</code> and <code>TypeScript</code>,
-                proficiently utilizing <code>CSS</code> to create visually
-                appealing and responsive web pages.
+                I excel in <code>Java</code> and <code>Python</code>,
+                proficiently utilizing <code>SpringBoot</code>, <code>Django</code> and <code>Flask</code>
+                to develop web apps.
               </p>
               <p>
                 I have a deep understanding of <code>React</code> and have
@@ -188,9 +160,9 @@ export default function Page() {
                 extensive experience with <code>App Router</code>.
               </p>
               <p>
-                In addition to front-end development, I am also familiar with
-                backend development using tools such as <code>Prisma</code>,{' '}
-                <code>NestJS</code>, and <code>GraphQL</code>.
+                In addition to back-end development, I am also familiar with
+                front-end development using tools such as <code>React</code> and
+                <code>Vue.js</code>.
               </p>
               <p>
                 Furthermore, I have experience in mobile App development using
@@ -202,16 +174,13 @@ export default function Page() {
               <div className='my-4 flex items-center'>
                 <p className='basis-1/4 text-center font-semibold'>Social</p>
                 <div className='grid flex-1 grid-cols-2 justify-items-start gap-2'>
-                  <a href='https://github.com/zhangyu1818'>Github</a>
-                  <a href='https://twitter.com/zhangyu1818'>Twitter</a>
-                  <a href='https://juejin.cn/user/4089838986339927'>掘金</a>
-                  <a href='https://dev.to/zhangyu1818'>Dev.to</a>
-                  <a href='https://medium.com/@zhangyu1818'>Medium</a>
+                  <a href='https://github.com/SheEagle'>Github</a>
+                  <a href='https://www.linkedin.com/in/xiru-wang-551103248/'>Linkedin</a>
                 </div>
               </div>
               <div className='flex items-center'>
                 <p className='basis-1/4 text-center font-semibold'>Email</p>
-                <a href='mailto:hey@zhangyu.dev'>hey@zhangyu.dev</a>
+                <a href='mailto:morganwang68@gmail.com'>morganwang68@gmail.com</a>
               </div>
             </TypedContent>
           </Typed>
