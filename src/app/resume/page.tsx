@@ -47,7 +47,7 @@ export default function Page() {
             <TypedContent>
               <p>
                 Hi, I&apos;m <strong>ZHANG YU</strong>, in Chinese my name is{' '}
-                <strong>张宇</strong>.
+                <strong>王希如</strong>.
               </p>
               <p>
                 I am a senior front-end engineer who have been involving in
